@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #b205e7 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ef2594 !important;
+}
+
+.swiper {
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.swiper-slide {
+    text-align: center !important;
+    font-size: 18px !important;
+    height: calc((100% - 30px) / 2) !important;
+    /* Center slide text vertically */
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    -webkit-justify-content: center !important;
+    justify-content: center;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    background-image: url("/images/left.png");
+    width: 71px !important;
+    height: 71px !important;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    background-image: url("/images/right.png");
+    width: 71px !important;
+    height: 71px !important;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: '' !important;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '' !important;
+}
+
+.rmsc .dropdown-container {
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 50px !important;
+
+}
+
+
+.rmsc .dropdown-heading {
+    height: 50px !important;
+    padding: 14px !important;
+}
+
+.modal-dialog {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.modal-header {
+    border: none !important;
+}
+.modal-dialog{
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+.modal-footer {
+    border: none !important;
+}
+
+.modal-content {
+    position: relative !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.modal-body {
+    display: flex !important;
+    justify-content: center !important;
+}
+@media (max-width: 767px) {
+    .modal-content{
+        padding: 0 !important;
+    }
+    .modal-body{
+        display: block !important;
+    }
+}
+@media (max-width: 600px) {
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        width: 40px !important;
+        height: 40px !important;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        width: 40px !important;
+        height: 40px !important;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+    }
+}

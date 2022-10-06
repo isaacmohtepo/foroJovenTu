@@ -1,0 +1,50 @@
+.section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.general{
+    max-width: 1500px;
+}
+
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 44px;
+    font-weight: bold;
+    color: #061a53;
+}
+
+.title h2 span{
+    color: #ef2594;
+}
+
+.general_autor{
+    position: relative;
+    z-index: 1;
+    height: 900px;
+}
+
+.apoyo_grafico{
+    position: absolute;
+    right: 0;
+    top: -250px;
+}
+.apoyo_grafico_2{
+    position: absolute;
+    left: 0;
+    bottom: -250px;
+    transform: rotate(180deg);
+}
+
+
+@media (max-width: 767px) {
+    .general_autor {
+        height: 100%;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+}

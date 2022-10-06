@@ -1,0 +1,39 @@
+.navbar_right_general{
+    gap: 40px;
+}
+.navbar_right{
+    width: 100%;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.navbar{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff !important;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #1955de 0%, #b205e7 51%, #b205e7 100%);
+    color: #ffffff;
+    font-weight: bolder;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    transform: translate(0px, 5px);
+}
+.navbar_shadow{
+    box-shadow: 0 0 20px #eee;
+    transition: 2s;
+}

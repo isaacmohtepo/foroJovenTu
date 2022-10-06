@@ -1,0 +1,421 @@
+.section {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url("/images/Banners_Gamers.jpg");
+    margin-top: 70px;
+}
+
+.general {
+    width: 100%;
+    height: 100%;
+    padding: 120px 60px;
+    display: flex;
+    align-items: center;
+}
+
+.content_general {
+    position: relative;
+    width: 800px;
+}
+
+.content_general .content {
+    position: relative;
+    width: 800px;
+
+}
+
+.content_general .content h2 {
+    font-size: 100px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+
+.content_general .content h3 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.content_general .content h2 span{
+  font-size: 50px;
+}
+
+
+.content_general .content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+}
+
+.content_general .content p span{
+    color: #e6c42e;
+    font-weight: 600;
+}
+
+.content_general .content .hastag {
+    background-color: #6cbeed;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.content_general .content .hastag:hover {
+    background-color: #ef2594;
+    color: #ffffff;
+}
+
+
+.multimedia_general {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.multimedia {
+    position: relative;
+    z-index: 1;
+}
+
+.lineas_rosadas {
+    position: absolute;
+    bottom: 10px;
+    left: -200px;
+    animation: lineas 2s infinite;
+}
+
+@keyframes lineas {
+    0% {
+       transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+
+.lineas_azul{
+    position: absolute;
+    top: 40px;
+    left:40px;
+    animation: lineas 2s infinite;
+}
+
+@keyframes linea-azul {
+    0% {
+       transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.pestaña_play {
+    position: absolute;
+    top: -60px;
+    left: -150px;
+    z-index: -1;
+    animation: pestana 5s infinite;
+}
+
+@keyframes pestana {
+    0% {
+       transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.cruz_roja {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    animation: cruz_roja 12s infinite;
+}
+
+@keyframes cruz_roja {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(360deg) translateY(20px);
+
+    }
+    100% {
+        transform: rotate(0deg) translateY(0px);
+
+    }
+}
+.cruz_azul {
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    animation: cruz_azul 12s infinite;
+}
+
+@keyframes cruz_azul {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(360deg) translateY(20px);
+
+    }
+    100% {
+        transform: rotate(0deg) translateY(0px);
+
+    }
+}
+
+.carita_triste{
+    position: absolute;
+    top: -60px;
+    left: 240px;
+    animation: triste 1s infinite;
+}
+
+@keyframes triste {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(14deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.puntos{
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+.call_to_action{
+    background-image: url("/images/banner_call-top-action.png");
+    background-repeat: repeat;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.apoyo_grafico{
+    position: absolute;
+    transform: rotate(180deg);
+    right: 0;
+    top: -500px;
+}
+
+.carita_sopresa{
+    position: absolute;
+    bottom: -90px;
+    right: 200px;
+    animation: sopresa 1s infinite;
+}
+
+@keyframes sopresa {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-14deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.cruz_roja_left{
+    position: absolute;
+    left: 50px;
+    bottom: -180px;
+    animation: cruz_roja_left 12s infinite;
+}
+
+@keyframes cruz_roja_left {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(360deg) translateY(20px);
+
+    }
+    100% {
+        transform: rotate(0deg) translateY(0px);
+
+    }
+}
+
+@media (max-width: 1573px) {
+    .content_general .content h3 {
+        font-size: 50px;
+    }
+    .content_general .content p {
+        width: 600px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .content_general .content p {
+        font-size: 18px;
+    }
+    .content_general .content h2{
+        font-size: 80px;
+    }
+    .content_general .content h3 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .content_general {
+        position: relative;
+        width: 700px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .content_general {
+        position: relative;
+        width: 600px;
+    }
+    .content_general .content h2{
+        font-size: 65px;
+    }
+    .content_general .content p {
+        width: 500px;
+    }
+    .content_general .content h3 {
+        font-size: 35px;
+    }
+    .content_general .content p {
+        font-size: 16px;
+    }
+
+    .cruz_roja img {
+        width: 130px;
+    }
+
+    .cruz_roja {
+        right: 140px;
+    }
+
+    .carita_triste{
+        left: 140px;
+    }
+    .carita_triste img {
+        width: 110px;
+    }
+
+    .lineas_azul{
+        left: 40px;
+    }
+
+    .lineas_azul img {
+        width: 100px;
+    }
+
+    .puntos img {
+        width: 90px;
+    }
+
+    .cruz_roja_left img {
+        width: 130px;
+    }
+    .carita_sopresa{
+        bottom: -20px;
+        right: 100px;
+    }
+
+    .carita_sopresa img {
+
+        width: 110px;
+    }
+
+    .lineas_rosadas img {
+        width: 100px;
+    }
+    .section {
+        height: 100%;
+    }
+
+}
+
+
+@media (max-width: 1100px) {
+    .lineas_rosadas{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .cruz_azul {
+        display: none;
+    }
+    .general {
+        flex-direction: column;
+    }
+
+    .multimedia_general {
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .content_general .content p {
+        width: 660px;
+    }
+    .content_general .content h2{
+        font-size: 75px;
+    }
+    .content_general {
+        width: 100%
+    }
+    .content_general .content {
+        position: relative;
+        width: 100%;
+
+    }
+
+}
+
+
+@media (max-width: 907px) {
+    .multimedia {
+        position: initial;
+    }
+    .content_general .content p {
+        width: 100%;
+    }
+    .cruz_roja{
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .cruz_roja_left{
+        display: none;
+    }
+}

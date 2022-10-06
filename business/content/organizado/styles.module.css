@@ -1,0 +1,90 @@
+.section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 80px 40px;
+}
+
+.organizado .title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.organizado .title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #061a53;
+    margin: 0;
+}
+
+.organizado .title h2 span {
+    color: #ef2594;
+}
+
+.organizado_ejecturado {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.ejecturado .title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ejecturado .title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #061a53;
+    margin: 0;
+}
+
+.ejecturado .title h2 span {
+    color: #ef2594;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.apoyo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.apoyo .title{
+    margin-top: 40px;
+}
+
+.apoyo .title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #061a53;
+    margin: 0;
+}
+
+.apoyo .title h2 span {
+    color: #ef2594;
+}
+
+
+.card_logos{
+    width: 100%;
+    margin-top: 60px;
+}
+
+@media (max-width: 626px) {
+    .organizado_ejecturado {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
