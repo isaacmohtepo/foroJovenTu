@@ -1,6 +1,5 @@
 import styles from './styles.module.css';
 import React, {useState} from "react";
-import {useData} from "../../../service/services";
 import Button from "react-bootstrap/Button";
 
 export default function Campos_faltante() {
