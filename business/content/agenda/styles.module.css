@@ -1,0 +1,462 @@
+.section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 40px 40px 130px 40px;
+    margin-top: 65px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #061a53;
+}
+
+.title h2 span {
+    color: #ef2594;
+}
+
+.general_agenda {
+    position: relative;
+    margin-top: 60px;
+    z-index: 2;
+}
+
+
+.tabs {
+    max-width: 1300px !important;
+
+}
+
+.tabs ul {
+    margin: 0;
+    display: flex;
+}
+
+.tabs ul li {
+    text-align: center;
+    width: 100%;
+}
+
+.rosa {
+    background-color: #ef2594;
+    padding: 40px;
+    position: relative;
+}
+
+.morado {
+    position: relative;
+    background-color: #b205e7;
+    padding: 40px;
+}
+
+.amarillo {
+    position: relative;
+    background-color: #e6c42e;
+    padding: 40px;
+}
+
+.azul {
+    position: relative;
+    background-color: #6cbeed;
+    padding: 40px;
+}
+
+.verde {
+    position: relative;
+    background-color: #87ca38;
+    padding: 40px;
+}
+
+.tabs li {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+}
+
+.tabs li {
+    padding: 0;
+}
+
+.tabs span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.textRosa {
+    background-color: #ef2594;
+    height: 100%;
+}
+
+.tabRosa {
+    background-color: #ef2594;
+}
+
+.textMorado {
+    background-color: #b205e7;
+    height: 100%;
+}
+
+.tabMorado {
+    background-color: #b205e7;
+}
+
+.textAmarillo {
+    background-color: #e6c42e;
+    height: 100%;
+}
+
+.tabAmarillo {
+    background-color: #e6c42e;
+}
+
+.textAzul {
+    background-color: #6cbeed;
+    height: 100%;
+}
+
+.tabAzul {
+    background-color: #6cbeed;
+}
+
+.textVerde {
+    background-color: #87ca38;
+    height: 100%;
+}
+
+.tabVerde {
+    background-color: #87ca38;
+}
+
+/*sub card */
+
+.card {
+    border-radius: 0 0 50px 50px;
+}
+
+.subCard {
+    position: relative;
+    width: 100%;
+    min-height: 690px;
+
+}
+
+.subCard .cuadroImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.subCard .logo {
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+}
+
+.subCard .title {
+    position: absolute;
+    z-index: 2;
+    left: 14px;
+    top: 80px;
+    padding: 0 80px 0 40px;
+}
+
+.titleVerde {
+    background-color: #87ca38;
+}
+
+
+.subCard .title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.card_time_general {
+    display: flex;
+    z-index: 2;
+    left: 60px;
+    top: 200px;
+    gap: 80px;
+    position: absolute;
+}
+
+.card_left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subCard .time_general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card_left {
+    width: 600px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+}
+
+.time span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+
+.content_time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content_time p {
+    font-size: 18px;
+    color: #061a53;
+}
+
+.content_time p span {
+    color: #ef2594;
+    display: contents;
+    font-weight: 600;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.content_time span {
+    margin: 0;
+    padding: 0;
+}
+
+.content_time p {
+    margin: 0;
+}
+
+.content_time h6 {
+    font-size: 12px;
+    color: #061a53;
+    border: #ef2594 2px solid;
+    padding: 2px 20px;
+}
+
+.content_time h5 {
+    font-size: 12px;
+    color: #061a53;
+}
+
+.apoyo_grafico {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1199px) {
+    .general {
+        max-width: 1080px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .card_time_general {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .content_time p {
+        font-size: 18px;
+        color: #061a53;
+    }
+}
+
+@media (max-width: 1100px) {
+    .cuadroImg {
+        display: none;
+    }
+
+    .card_time_general {
+        gap: 20px;
+    }
+
+    .card_time_general {
+        flex-direction: column;
+    }
+
+    .movil_atodamaquina {
+        display: flex;
+        flex-direction: initial;
+    }
+
+    .segmento4 {
+        height: 1100px;
+        background-color: #ffffff;
+        border-radius: 50px;
+        border: solid 5px #ef2594;
+    }
+
+    .subCard {
+        margin-bottom: 100px;
+        background-color: #ffffff;
+        border-radius: 50px;
+        border: solid 5px #ef2594;
+    }
+
+    .subCard .logo {
+        bottom: -100px;
+        right: 10px;
+    }
+
+    .subCard .title {
+        left: 0;
+    }
+
+    .tabs li {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 890px) {
+    .movil_atodamaquina {
+        display: flex;
+        flex-direction: column;
+        height: 928px;
+    }
+
+    .width50 {
+        width: 100%;
+    }
+
+    .card_left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 820px) {
+    .tabs li {
+        height: 58px;
+    }
+}
+
+@media (max-width: 700px) {
+    .subCard .time_general {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .time {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .subCard .time_general {
+        align-items: flex-start;
+    }
+
+    .movil_atodamaquina {
+        height: 1121px;
+    }
+
+    .segmento_movil {
+        height: 832px;
+    }
+
+    .segmento4 {
+        height: 1300px;
+    }
+}
+
+@media (max-width: 610px) {
+    .segmento_movil {
+        height: 950px;
+    }
+
+    .section {
+        padding: 40px 0 130px 0;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .rosa {
+        padding: 10px;
+    }
+    .morado{
+        padding: 10px;
+    }
+    .verde{
+        padding: 10px;
+    }
+    .azul{
+        padding: 10px;
+    }
+    .amarillo{
+        padding: 10px;
+    }
+
+    .card_time_general{
+        left: 40px;
+        padding: 0 10px;
+    }
+
+    .tabs ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .tabMorado{
+        width: 100%;
+    }
+    .tabVerde{
+        width: 100%;
+    }
+    .tabAzul{
+        width: 100%;
+    }
+    .tabAmarillo{
+        width: 100%;
+    }
+    .tabRosa{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .card_time_general{
+        left: 20px;
+    }
+}
